@@ -15,13 +15,16 @@
 
 form .logo-title {
     width: 100%;
-    padding: 40px;
-    
+    justify-content: center;
     text-align: center;
 }
 
 form .logo-title h1 {
     font-size: 36px;
+}
+
+form .logo-title p {
+    font-size: 16px;
 }
 
 form .input-box {
@@ -42,6 +45,7 @@ form .input-box {
     border-radius: 40px;
     font-size: 16px;
     color: #fff;
+    padding: 20px 45px 20px 20px;
 }
 
 .input-box input::placeholder {
@@ -53,4 +57,19 @@ form .input-box {
     right: 20px;
     top: 50%;
     transform: translate(0, -50%);
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
 }
